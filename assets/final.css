@@ -1,0 +1,214 @@
+.topnav {
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: right;
+    color: #CED0CE;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.joji-img{
+  float:right;
+}
+
+.joji{
+  text-align:left;
+  padding:50px 50px;
+  font-size:80px;
+  color: #CED0CE;
+}
+
+.about-text{
+  font-size:30px;
+  padding-left: 50px;
+  color: #CED0CE;
+  margin-top: 300px;
+  text-decoration: none;
+}
+
+
+.jojiaboutimg{
+  float:right;
+  margin-top: 300px;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0.9;
+  }
+}
+
+.george {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 100;
+  animation-name: topFadeOut;
+  animation-duration: 4s;
+  color: black;
+}
+
+.joji {
+    font-size: 4.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 100;
+    animation-name: topFadeOut;
+    animation-duration: 4s;
+    color: white;
+  }
+
+
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    right: 10rem;
+    opacity: 1;
+  }
+}
+
+/* .ye {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  color: black;
+} */
+
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.bio {
+  width:600px;
+  font-size: 2.4rem;
+  position: absolute;
+  top: 17.5rem;
+  left: 10%;
+  opacity: 0;
+  color: black;
+  animation-name: fadeInOut;
+  animation-delay: 3.5s;
+  animation-duration: 20s;
+}
+
+
+.filthy {
+  position: absolute;
+  top: 8.5rem;
+  opacity: 1;
+  animation-name: topFadeOut;
+  animation-delay: 1s;
+  animation-duration: 6s;
+  color: black;
+}
+
+.word{
+  font-size:80px;
+  margin-bottom: 50px;
+}
+
+.pink {
+		-webkit-animation: rotation 2s 3 linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.about-text {
+  width:600px;
+  font-size: 2.4rem;
+  position: absolute;
+  top: 17.5rem;
+  left: 10%;
+  opacity: 0;
+  color: white;
+  animation-name: fadeInOut;
+  animation-delay: 3.5s;
+  animation-duration: 20s;
+}
+
+.risingtext{
+  font-size: 25px;
+  color:white;
+  margin-top: 90px;
+  display:flex;
+  justify-content: center;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+.risingtext #tickets{
+  margin-left: 100px;
+}
+
+.risingtext #tour{
+  margin-left: 300px;
+}
+
+.risingtext #learn-more{
+  margin-left: 300px;
+}
+
+
+
+.rising {
+margin-top: 100px;
+margin-left:100px;
+}
