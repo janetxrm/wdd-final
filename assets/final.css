@@ -27,7 +27,7 @@
   font-size:30px;
   padding-left: 50px;
   color: #CED0CE;
-  margin-top: 300px;
+  margin-top: 500px;
   text-decoration: none;
 }
 
@@ -37,10 +37,10 @@
   margin-top: 300px;
 }
 
-@keyframes topFadeOut {
+@keyframes animation {
   0% {
     position: absolute;
-    top: -3rem;
+    top: 1%;
     opacity: 0;
   }
 
@@ -56,130 +56,30 @@
 }
 
 .george {
-  font-size: 4.4rem;
+  font-size: 90px;
   position: absolute;
-  left: 2.5rem;
-  top: 5rem;
   opacity: 100;
-  animation-name: topFadeOut;
+  animation-name: animation;
   animation-duration: 4s;
   color: black;
+  text-decoration: none;
 }
 
 .joji {
-    font-size: 4.4rem;
+    font-size: 90px;
     position: absolute;
-    left: 2.5rem;
-    top: 5rem;
     opacity: 100;
-    animation-name: topFadeOut;
+    animation-name: animation;
     animation-duration: 4s;
     color: white;
   }
 
-
-
-@keyframes rightFadeInOut {
-  0% {
-    position: absolute;
-    right: -3rem;
-    opacity: 0;
-  }
-
-  75% {
-    position: absolute;
-    right: 10rem;
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 1;
-    right: 10rem;
-    opacity: 1;
-  }
-}
-
-/* .ye {
-  font-size: 1.4rem;
-  position: absolute;
-  top: 8.5rem;
-  opacity: 0;
-  animation-name: rightFadeInOut;
-  animation-delay: 3s;
-  animation-duration: 1s;
-  color: black;
-} */
-
-
-@keyframes fadeInOut {
-  0% {
-    opacity: 0;
-  }
-
-  45% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-
-.bio {
-  width:600px;
-  font-size: 2.4rem;
-  position: absolute;
-  top: 17.5rem;
-  left: 10%;
-  opacity: 0;
-  color: black;
-  animation-name: fadeInOut;
-  animation-delay: 3.5s;
-  animation-duration: 20s;
-}
-
-
-.filthy {
-  position: absolute;
-  top: 8.5rem;
-  opacity: 1;
-  animation-name: topFadeOut;
-  animation-delay: 1s;
-  animation-duration: 6s;
-  color: black;
-}
 
 .word{
   font-size:80px;
   margin-bottom: 50px;
 }
 
-.pink {
-		-webkit-animation: rotation 2s 3 linear;
-}
-
-@-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
-}
-
-.about-text {
-  width:600px;
-  font-size: 2.4rem;
-  position: absolute;
-  top: 17.5rem;
-  left: 10%;
-  opacity: 0;
-  color: white;
-  animation-name: fadeInOut;
-  animation-delay: 3.5s;
-  animation-duration: 20s;
-}
 
 .risingtext{
   font-size: 25px;
@@ -211,4 +111,12 @@ a:hover{
 .rising {
 margin-top: 100px;
 margin-left:100px;
+}
+
+.bio{
+  font-size:30px;
+  padding-left: 50px;
+  color: black;
+  margin-top: 300px;
+  text-decoration: none;
 }
