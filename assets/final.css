@@ -56,13 +56,13 @@
 }
 
 .george {
-  font-size: 90px;
+  font-size: 80px;
+  margin-left: 45px;
   position: absolute;
   opacity: 100;
   animation-name: animation;
-  animation-duration: 4s;
+  animation-duration: 3s;
   color: black;
-  text-decoration: none;
 }
 
 .joji {
